@@ -1,0 +1,54 @@
+/**
+ * Attributes for the applicant's data table
+ */
+#applicants_table {
+    font-family: 'Arial';
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    /**
+ * Attributes for the applicant's table's header and data
+ * Font styles, font size, color etc
+ */
+    #applicants_table td, th {
+        border: 2px solid black;
+        text-align: left;
+        padding: 10px;
+    }
+
+    /**
+ * Attributes for the applicant's table's header
+ */
+    #applicants_table th {
+        text-align: center;
+        font-size: 120%;
+        font-weight: bold;
+        background-color: aquamarine;
+    }
+
+    /**
+ * Coloring the applicant's table rows 
+ */
+    #applicants_table tr:nth-child(even) {
+        background-color: bisque;
+    }
+
+/**
+ * Attributes for the applicant's table data
+ */
+#ta_data {
+    font-family: 'Arial';
+    font-size: 120%;
+    font-weight: bold;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+    /**
+ * Attributes for the numbers that represents the number of teaching assistants
+ */
+    #ta_data num {
+        font-size: 150%;
+        color: maroon;
+    }
